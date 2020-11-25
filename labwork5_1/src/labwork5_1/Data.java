@@ -79,7 +79,7 @@ public class Data {
         return s;
     }
 
-    public String AddToDol(Doljnost p) throws SQLException {
+    public String addToDol(Doljnost p) throws SQLException {
         try {
             selectElements();
             createCon();
@@ -100,7 +100,7 @@ public class Data {
         }
     }
 
-    public String DeleteFromDol(int _id) throws SQLException {
+    public String deleteFromDol(int _id) throws SQLException {
         try {
             selectElements();
             createCon();
@@ -121,7 +121,7 @@ public class Data {
         }
     }
 
-    public String DeleteFromSot(int _id) throws SQLException {
+    public String deleteFromSot(int _id) throws SQLException {
         try {
             selectElements();
             createCon();
@@ -142,7 +142,7 @@ public class Data {
         }
     }
 
-    public String AddToSot(Sotrudnic p) throws SQLException {
+    public String addToSot(Sotrudnic p) throws SQLException {
         try {
             selectElements();
             createCon();
